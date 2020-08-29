@@ -12,7 +12,26 @@ void main() {
               color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
-          )
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              FlatButton(
+                child: Text(
+                  "+1",
+                  style: TextStyle(fontSize: 40.0, color: Colors.white),
+                ),
+                onPressed: () {},
+              ),
+              FlatButton(
+                child: Text(
+                  "-1",
+                  style: TextStyle(fontSize: 40.0, color: Colors.white),
+                ),
+                onPressed: () {},
+              ),
+            ],
+          ),
         ],
       )));
 }
